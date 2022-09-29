@@ -19,3 +19,5 @@ altura = float(input("Dime tu estatura en metros: "))
 peso = float(input("Dime tu peso en kilos: "))
 print("Mides {0} metros y pesas {1} Kg".format(altura, peso))
 print("Mides {0:<5} metros y pesas {1:>5}Kg".format(altura, peso))
+
+#Hola
