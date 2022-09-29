@@ -17,7 +17,8 @@ print(str(numero1).zfill(4+len(str(numero1)))) + print("{:.03f}".format(numero2)
 #Ejercicio 3 
 altura = float(input("Dime tu estatura en metros: "))
 peso = float(input("Dime tu peso en kilos: "))
+print(f"Mides {altura} metros y pesas {peso}")
 print("Mides {0} metros y pesas {1} Kg".format(altura, peso))
 print("Mides {0:<5} metros y pesas {1:>5}Kg".format(altura, peso))
 
-#Hola
+
