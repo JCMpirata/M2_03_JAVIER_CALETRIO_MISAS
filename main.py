@@ -1,10 +1,12 @@
 #Ejercicio 1
-
-num1 = int(input("Escribe un numero entero: "))
+num1 = input("Escribe un numero entero: ")
 print(f"El numero {num1} es un numero {type(num1)}")
 
-num2 = float(input("Escribe un numero racional: "))
+num2 =int(input("Escribe un numero entero: "))
 print(f"El numero {num2} es un numero {type(num2)}")
+
+num3 = float(input("Escribe un numero racional: "))
+print(f"El numero {num3} es un numero {type(num3)}")
 
 #Ejercicio 2
 numero1 = int(input("Dime un numero entero: "))
